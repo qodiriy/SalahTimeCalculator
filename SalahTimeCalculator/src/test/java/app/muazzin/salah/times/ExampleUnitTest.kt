@@ -1,4 +1,4 @@
-package app.muazzin.times
+package app.muazzin.salah.times
 
 import org.junit.Test
 
