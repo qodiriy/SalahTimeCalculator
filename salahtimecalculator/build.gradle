@@ -12,7 +12,7 @@ def getVersionName = { ->
 }
 
 def getArtificatId = { ->
-    return "SalahTimeCalculator" // Replace with library name ID
+    return "salahtimecalculator" // Replace with library name ID
 }
 
 publishing {
@@ -32,7 +32,7 @@ publishing {
              ** Replace GITHUB_USERID with your/organisation Github userID
              ** and REPOSITORY with the repository name on GitHub
              */
-            url = uri("https://maven.pkg.github.com/muazzinapp/SalahTime")
+            url = uri("https://maven.pkg.github.com/qodiriy/SalahTimeCalculator")
             credentials {
                 /** Create github.properties in root project folder file with
                  ** gpr.usr=GITHUB_USER_ID & gpr.key=PERSONAL_ACCESS_TOKEN
