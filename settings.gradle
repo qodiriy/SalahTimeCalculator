@@ -1,0 +1,3 @@
+include ':SalahTimeCalculator'
+include ':app'
+rootProject.name = "SalahTimes"
